@@ -1,5 +1,6 @@
 <?php
 // Incluye la librería PhpSpreadsheet
+// asumiendo que subas esto a la raiz de tu carpeta public, si lo subes a una carpeta recuerda agregar ../../vendor/autoload.php
 require 'vendor/autoload.php';
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
